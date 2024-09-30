@@ -1,17 +1,24 @@
 {
-  "name": "tutorial",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.9.3",
-    "astro": "5.0.0-beta.2",
-    "typescript": "^5.6.2"
-  }
+	"name": "tutorial",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.3",
+		"@astrojs/preact": "^3.5.3",
+		"@astrojs/rss": "^4.0.7",
+		"astro": "5.0.0-beta.2",
+		"preact": "^10.24.1",
+		"typescript": "^5.6.2"
+	},
+	"devDependencies": {
+		"prettier": "^3.3.3",
+		"prettier-plugin-astro": "^0.14.1"
+	}
 }
